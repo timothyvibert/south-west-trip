@@ -68,14 +68,14 @@
 
   .checklist { list-style: none; padding: 0; }
   .checklist li { padding: 8px 0 8px 28px; position: relative; font-size: 0.92em; border-bottom: 1px solid #f0e8e0; }
-  .checklist li::before { content: '☐'; position: absolute; left: 0; color: #c94b2a; font-size: 1.1em; }
-  .checklist li.urgent::before { content: '⚠'; }
+  .checklist li::before { content: '&#9744;'; position: absolute; left: 0; color: #c94b2a; font-size: 1.1em; }
+  .checklist li.urgent::before { content: '&#9888;'; }
 
   .packing-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
   .packing-cat h4 { font-size: 0.95em; color: #c94b2a; margin-bottom: 8px; }
   .packing-cat ul { list-style: none; padding: 0; }
   .packing-cat li { padding: 3px 0 3px 20px; position: relative; font-size: 0.88em; color: #555; }
-  .packing-cat li::before { content: '•'; position: absolute; left: 6px; color: #cba; }
+  .packing-cat li::before { content: '&#8226;'; position: absolute; left: 6px; color: #cba; }
 
   .footer { text-align: center; padding: 40px; color: #aaa; font-size: 0.82em; }
 
@@ -90,8 +90,8 @@
 
 <div class="hero">
   <h1>Southwest National Parks Road Trip</h1>
-  <p class="subtitle">Grand Canyon · Page · Bryce Canyon</p>
-  <div class="dates">April 6 – 12, 2026 · 4 Travelers</div>
+  <p class="subtitle">Grand Canyon &middot; Page &middot; Bryce Canyon &middot; Zion</p>
+  <div class="dates">April 6 &ndash; 12, 2026 &middot; 4 Travelers</div>
 </div>
 
 <div class="container">
@@ -99,21 +99,23 @@
 <div class="overview">
   <h2>Route Overview</h2>
   <div class="route-visual">
-    <span class="route-stop">✈ Las Vegas</span>
-    <span class="route-arrow">→</span>
+    <span class="route-stop">&#9992; Las Vegas</span>
+    <span class="route-arrow">&rarr;</span>
     <span class="route-stop">Grand Canyon</span>
-    <span class="route-arrow">→</span>
+    <span class="route-arrow">&rarr;</span>
     <span class="route-stop">Page, AZ</span>
-    <span class="route-arrow">→</span>
+    <span class="route-arrow">&rarr;</span>
     <span class="route-stop">Bryce Canyon</span>
-    <span class="route-arrow">→</span>
-    <span class="route-stop">Las Vegas ✈</span>
+    <span class="route-arrow">&rarr;</span>
+    <span class="route-stop">Zion</span>
+    <span class="route-arrow">&rarr;</span>
+    <span class="route-stop">Las Vegas &#9992;</span>
   </div>
-  <p style="text-align:center; font-size:0.9em; color:#777;">A clockwise loop — back in Vegas Saturday night for an early Sunday flight.</p>
+  <p style="text-align:center; font-size:0.9em; color:#777;">A clockwise loop through four iconic destinations &mdash; back in Vegas Saturday night for an early Sunday flight.</p>
 
   <div class="stats">
-    <div class="stat"><div class="num">~770</div><div class="label">Total Miles</div></div>
-    <div class="stat"><div class="num">3</div><div class="label">Destinations</div></div>
+    <div class="stat"><div class="num">~830</div><div class="label">Total Miles</div></div>
+    <div class="stat"><div class="num">4</div><div class="label">National Parks</div></div>
     <div class="stat"><div class="num">6</div><div class="label">Nights</div></div>
     <div class="stat"><div class="num">4</div><div class="label">Travelers</div></div>
   </div>
@@ -124,22 +126,22 @@
   <div class="day-header">
     <div class="day-num">1</div>
     <div>
-      <div class="day-title">Arrive & Drive to the Canyon</div>
+      <div class="day-title">Arrive &amp; Drive to the Canyon</div>
       <div class="day-date">Monday, April 6</div>
-      <div class="day-location">Las Vegas → Grand Canyon South Rim</div>
+      <div class="day-location">Las Vegas &rarr; Grand Canyon South Rim</div>
     </div>
   </div>
-  <div class="drive-badge">🚗 ~4.5 hours · 280 miles via I-40 & AZ-64</div>
+  <div class="drive-badge">&#128663; ~4.5 hours &middot; 280 miles via I-40 &amp; AZ-64</div>
   <div class="timeline">
     <div class="timeline-item">
       <div class="time">Late Morning</div>
       <h4>Arrive in Las Vegas (LAS)</h4>
-      <p>Both flights (NYC and Boston) should target arrival by 10–11 AM. Meet at the airport and pick up the rental car.</p>
+      <p>Both flights (NYC and Boston) should target arrival by 10&ndash;11 AM. Meet at the airport and pick up the rental car.</p>
     </div>
     <div class="timeline-item">
       <div class="time">~11:30 AM</div>
       <h4>Hit the road</h4>
-      <p>Drive east on I-40 through Kingman, then north on AZ-64 to the Grand Canyon South Rim. Stop in Williams or Seligman for lunch — both have classic Route 66 diners.</p>
+      <p>Drive east on I-40 through Kingman, then north on AZ-64 to the Grand Canyon South Rim. Stop in Williams or Seligman for lunch &mdash; both have classic Route 66 diners.</p>
     </div>
     <div class="timeline-item">
       <div class="time">~4:00 PM</div>
@@ -148,11 +150,11 @@
     </div>
     <div class="timeline-item">
       <div class="time">Evening</div>
-      <h4>Dinner & rest</h4>
-      <p>Eat in Tusayan (The Grand Hotel restaurant is solid) or grab pizza at We Cook Pizza and Pasta. Early night — big hike tomorrow.</p>
+      <h4>Dinner &amp; rest</h4>
+      <p>Eat in Tusayan (The Grand Hotel restaurant is solid) or grab pizza at We Cook Pizza and Pasta. Early night &mdash; big hike tomorrow.</p>
     </div>
   </div>
-  <div class="info-box tip">💡 Buy the <strong>America the Beautiful Pass</strong> ($80 total) at the entrance gate — it covers both national parks and saves you vs. individual $35/vehicle fees. Split 4 ways that's just $20/person. <a href="https://www.recreation.gov/pass/" target="_blank">Buy online →</a></div>
+  <div class="info-box tip">&#128161; Buy the <strong>America the Beautiful Pass</strong> ($80 total) at the entrance gate &mdash; it covers all four national parks and saves you vs. individual $35/vehicle fees. Split 4 ways that's just $20/person. <a href="https://www.recreation.gov/pass/" target="_blank">Buy online &rarr;</a></div>
 </div>
 
 <!-- DAY 2 -->
@@ -160,7 +162,7 @@
   <div class="day-header">
     <div class="day-num">2</div>
     <div>
-      <div class="day-title">Grand Canyon — Full Day of Hiking</div>
+      <div class="day-title">Grand Canyon &mdash; Full Day of Hiking</div>
       <div class="day-date">Tuesday, April 7</div>
       <div class="day-location">Grand Canyon South Rim</div>
     </div>
@@ -169,25 +171,25 @@
     <div class="timeline-item">
       <div class="time">Early Morning (6:30 AM)</div>
       <h4>Sunrise at Mather Point</h4>
-      <p>Get up early and catch sunrise — the canyon glows orange and pink at dawn. It's a short walk from the Visitor Center parking area.</p>
+      <p>Get up early and catch sunrise &mdash; the canyon glows orange and pink at dawn. It's a short walk from the Visitor Center parking area.</p>
     </div>
     <div class="timeline-item">
-      <div class="time">7:30 AM – 1:00 PM</div>
+      <div class="time">7:30 AM &ndash; 1:00 PM</div>
       <h4>South Kaibab to Bright Angel Trail</h4>
-      <p>The classic adventurous day hike: descend the <strong>South Kaibab Trail</strong> to Skeleton Point (6 miles round trip, 2,040 ft elevation change) for jaw-dropping panoramic views. No shade or water on this trail, so start early. For a longer option, descend to the Tonto Trail junction and loop back up via the <strong>Bright Angel Trail</strong> (~9–12 miles total).</p>
+      <p>The classic adventurous day hike: descend the <strong>South Kaibab Trail</strong> to Skeleton Point (6 miles round trip, 2,040 ft elevation change) for jaw-dropping panoramic views. No shade or water on this trail, so start early. For a longer option, descend to the Tonto Trail junction and loop back up via the <strong>Bright Angel Trail</strong> (~9&ndash;12 miles total).</p>
     </div>
     <div class="timeline-item">
       <div class="time">Afternoon</div>
-      <h4>Rim Trail & Geology Museum</h4>
-      <p>After the big hike, stroll the paved Rim Trail between viewpoints. Stop at the Yavapai Geology Museum for context on the 2-billion-year story carved into the rock. Visit Hopi Point — one of the best overlooks on the rim.</p>
+      <h4>Rim Trail &amp; Geology Museum</h4>
+      <p>After the big hike, stroll the paved Rim Trail between viewpoints. Stop at the Yavapai Geology Museum for context on the 2-billion-year story carved into the rock. Visit Hopi Point &mdash; one of the best overlooks on the rim.</p>
     </div>
     <div class="timeline-item">
       <div class="time">Evening</div>
-      <h4>Desert View Drive & Sunset</h4>
+      <h4>Desert View Drive &amp; Sunset</h4>
       <p>Drive the 25-mile Desert View Drive east along the rim, stopping at Grandview Point, Moran Point, and Lipan Point. End at the Desert View Watchtower for sunset. This drive sets you up for tomorrow's route toward Page.</p>
     </div>
   </div>
-  <div class="info-box warning">⚠ <strong>Hiking safety:</strong> Bring at least 3 liters of water per person, salty snacks, and sunscreen. April temps at the rim are 50–70°F but the inner canyon is hotter. The hike OUT is always harder than the hike in.</div>
+  <div class="info-box warning">&#9888; <strong>Hiking safety:</strong> Bring at least 3 liters of water per person, salty snacks, and sunscreen. April temps at the rim are 50&ndash;70&deg;F but the inner canyon is hotter. The hike OUT is always harder than the hike in.</div>
 </div>
 
 <!-- DAY 3 -->
@@ -195,12 +197,12 @@
   <div class="day-header">
     <div class="day-num">3</div>
     <div>
-      <div class="day-title">Page, AZ — Horseshoe Bend & Lake Powell</div>
+      <div class="day-title">Page, AZ &mdash; Horseshoe Bend &amp; Lake Powell</div>
       <div class="day-date">Wednesday, April 8</div>
-      <div class="day-location">Grand Canyon → Page, AZ</div>
+      <div class="day-location">Grand Canyon &rarr; Page, AZ</div>
     </div>
   </div>
-  <div class="drive-badge">🚗 ~2.5 hours · 135 miles via AZ-64 & US-89</div>
+  <div class="drive-badge">&#128663; ~2.5 hours &middot; 135 miles via AZ-64 &amp; US-89</div>
   <div class="timeline">
     <div class="timeline-item">
       <div class="time">Morning (8:00 AM)</div>
@@ -209,13 +211,13 @@
     </div>
     <div class="timeline-item">
       <div class="time">~10:30 AM</div>
-      <h4>Arrive in Page — Check in</h4>
+      <h4>Arrive in Page &mdash; Check in</h4>
       <p>Drop bags at the hotel. Page is a small town so everything is close together.</p>
     </div>
     <div class="timeline-item">
       <div class="time">Midday</div>
       <h4>Horseshoe Bend</h4>
-      <p>A short 1.5-mile round-trip walk from the parking lot to one of the most photographed spots in the Southwest — the Colorado River curving 1,000 feet below you in a dramatic U-shape. Parking is $10/vehicle. <a href="https://www.nps.gov/glca/planyourvisit/horseshoe-bend.htm" target="_blank">NPS Info →</a></p>
+      <p>A short 1.5-mile round-trip walk from the parking lot to one of the most photographed spots in the Southwest &mdash; the Colorado River curving 1,000 feet below you in a dramatic U-shape. Parking is $10/vehicle. <a href="https://www.nps.gov/glca/planyourvisit/horseshoe-bend.htm" target="_blank">NPS Info &rarr;</a></p>
     </div>
     <div class="timeline-item">
       <div class="time">Afternoon</div>
@@ -225,10 +227,10 @@
     <div class="timeline-item">
       <div class="time">Evening</div>
       <h4>Dinner in Page</h4>
-      <p>Try Big John's Texas BBQ or El Tapatio for Mexican food. Page is small but has a handful of good spots. Early night — Antelope Canyon tour in the morning.</p>
+      <p>Try Big John's Texas BBQ or El Tapatio for Mexican food. Page is small but has a handful of good spots. Early night &mdash; Antelope Canyon tour in the morning.</p>
     </div>
   </div>
-  <div class="info-box">📝 <strong>Schedule note:</strong> Ken's Tours (Lower Antelope Canyon) is closed Wednesdays, so Antelope Canyon is scheduled for Thursday morning before the drive to Bryce. This gives you a relaxed afternoon at Horseshoe Bend and Lake Powell.</div>
+  <div class="info-box">&#128221; <strong>Schedule note:</strong> Ken's Tours (Lower Antelope Canyon) is closed Wednesdays, so Antelope Canyon is scheduled for Thursday morning before the drive to Bryce. This gives you a relaxed afternoon at Horseshoe Bend and Lake Powell.</div>
 </div>
 
 <!-- DAY 4 -->
@@ -236,20 +238,20 @@
   <div class="day-header">
     <div class="day-num">4</div>
     <div>
-      <div class="day-title">Antelope Canyon → Bryce Canyon</div>
+      <div class="day-title">Antelope Canyon &rarr; Bryce Canyon</div>
       <div class="day-date">Thursday, April 9</div>
-      <div class="day-location">Page, AZ → Bryce Canyon, UT</div>
+      <div class="day-location">Page, AZ &rarr; Bryce Canyon, UT</div>
     </div>
   </div>
-  <div class="drive-badge">🚗 ~2.5 hours · 150 miles via US-89 (after Antelope Canyon)</div>
+  <div class="drive-badge">&#128663; ~2.5 hours &middot; 150 miles via US-89 (after Antelope Canyon)</div>
   <div class="timeline">
     <div class="timeline-item">
-      <div class="time">Early Morning (8:00–9:30 AM)</div>
+      <div class="time">Early Morning (8:00&ndash;9:30 AM)</div>
       <h4>Antelope Canyon Guided Tour</h4>
-      <p>Take a guided tour of <strong>Lower Antelope Canyon</strong> via <strong>Ken's Tours</strong> ($55/person, ~1–1.5 hrs). The swirling sandstone walls and light beams are otherworldly. No bags, backpacks, or selfie sticks allowed.</p>
+      <p>Take a guided tour of <strong>Lower Antelope Canyon</strong> via <strong>Ken's Tours</strong> ($55/person, ~1&ndash;1.5 hrs). The swirling sandstone walls and light beams are otherworldly. No bags, backpacks, or selfie sticks allowed.</p>
       <p style="margin-top:6px;">
-        <a href="https://lowerantelope.com/" target="_blank">Ken's Tours (Lower) →</a> ·
-        <a href="https://adventurousantelopecanyon.com/" target="_blank">Adventurous (Upper) →</a>
+        <a href="https://lowerantelope.com/" target="_blank">Ken's Tours (Lower) &rarr;</a> &middot;
+        <a href="https://adventurousantelopecanyon.com/" target="_blank">Adventurous (Upper) &rarr;</a>
       </p>
     </div>
     <div class="timeline-item">
@@ -259,22 +261,22 @@
     </div>
     <div class="timeline-item">
       <div class="time">~1:00 PM</div>
-      <h4>Check in & enter Bryce Canyon</h4>
+      <h4>Check in &amp; enter Bryce Canyon</h4>
       <p>Drop bags in Tropic or Panguitch, then head into the park. The shuttle likely won't be running yet in early April, so you can drive your own car along the scenic road.</p>
     </div>
     <div class="timeline-item">
       <div class="time">Afternoon</div>
       <h4>Navajo Loop + Queen's Garden Trail</h4>
-      <p>The signature Bryce hike: a ~3-mile combination loop that drops you into the amphitheater among the hoodoos. Descend via the Navajo Loop (through Wall Street's narrow slot), cross the canyon floor, and ascend via Queen's Garden. Moderate difficulty, 600 ft elevation change. Allow 2–3 hours.</p>
+      <p>The signature Bryce hike: a ~3-mile combination loop that drops you into the amphitheater among the hoodoos. Descend via the Navajo Loop (through Wall Street's narrow slot), cross the canyon floor, and ascend via Queen's Garden. Moderate difficulty, 600 ft elevation change. Allow 2&ndash;3 hours.</p>
     </div>
     <div class="timeline-item">
       <div class="time">Evening</div>
-      <h4>Sunset at Sunset Point</h4>
-      <p>The hoodoos light up in deep orange and red at sunset. Bryce is also an International Dark Sky Park — if the sky is clear, the stargazing is unreal.</p>
+      <h4>Sunset &amp; Stargazing at Bryce</h4>
+      <p>Watch the hoodoos light up in deep orange and red at Sunset Point. Bryce is an International Dark Sky Park &mdash; if the sky is clear, stick around after dark. You can see 7,500+ stars with the naked eye. Check if the park is hosting a ranger-led astronomy program.</p>
     </div>
   </div>
-  <div class="info-box warning">⚠ <strong>Book Antelope Canyon NOW!</strong> Tours sell out weeks ahead in April. Ken's Tours: $55/person for Lower Canyon. Open Mon-Tue, Thu-Sat (closed Wed & Sun). <a href="https://lowerantelope.com/" target="_blank">Book at lowerantelope.com →</a></div>
-  <div class="info-box">🌡 Bryce is at 8,000+ ft elevation — expect temperatures 15–20°F cooler than the Grand Canyon. April nights can dip below freezing. Bring warm layers.</div>
+  <div class="info-box warning">&#9888; <strong>Book Antelope Canyon NOW!</strong> Tours sell out weeks ahead in April. Ken's Tours: $55/person for Lower Canyon. Open Mon-Tue, Thu-Sat (closed Wed &amp; Sun). <a href="https://lowerantelope.com/" target="_blank">Book at lowerantelope.com &rarr;</a></div>
+  <div class="info-box">&#127777; Bryce is at 8,000+ ft elevation &mdash; expect temperatures 15&ndash;20&deg;F cooler than the Grand Canyon. April nights can dip below freezing. Bring warm layers.</div>
 </div>
 
 <!-- DAY 5 -->
@@ -282,39 +284,46 @@
   <div class="day-header">
     <div class="day-num">5</div>
     <div>
-      <div class="day-title">Bryce Canyon — Full Day Adventure</div>
+      <div class="day-title">Zion National Park &mdash; The Narrows or Angels Landing</div>
       <div class="day-date">Friday, April 10</div>
-      <div class="day-location">Bryce Canyon National Park</div>
+      <div class="day-location">Bryce Canyon &rarr; Zion National Park</div>
     </div>
   </div>
+  <div class="drive-badge">&#128663; ~1.5 hours &middot; 85 miles via US-89 &amp; UT-9</div>
   <div class="timeline">
     <div class="timeline-item">
-      <div class="time">Early Morning (6:00 AM)</div>
-      <h4>Sunrise at Bryce Point</h4>
-      <p>Wake up early for one of the best sunrises you'll ever see. The first light hitting the hoodoo amphitheater is absolutely magical. Dress warm — it'll be cold.</p>
+      <div class="time">Early Morning (7:00 AM)</div>
+      <h4>Last look at Bryce &amp; depart</h4>
+      <p>If you're up early, catch one more sunrise at Bryce Point &mdash; it's worth it. Then pack up and head southwest toward Zion. The drive through Red Canyon on UT-12 is stunning (stop for photos at the red rock tunnels!).</p>
     </div>
     <div class="timeline-item">
-      <div class="time">Morning (8:00 AM – Noon)</div>
-      <h4>Peek-a-Boo Loop Trail</h4>
-      <p>Arguably the best hike in the park. 5.5 miles with 1,500 ft of elevation change, winding through hoodoo formations with constantly changing views. Strenuous but spectacular. Allow 3–4 hours.</p>
+      <div class="time">~9:00 AM</div>
+      <h4>Arrive in Springdale &amp; enter Zion</h4>
+      <p>Drop bags at your hotel in Springdale (the gateway town just outside Zion's south entrance). Hop on the free <strong>Zion Canyon Shuttle</strong> &mdash; private cars aren't allowed on the scenic drive in season. The shuttle runs every 7&ndash;10 minutes and stops at all major trailheads.</p>
     </div>
     <div class="timeline-item">
-      <div class="time">Afternoon</div>
-      <h4>Scenic Drive & Overlooks</h4>
-      <p>Drive the 18-mile scenic road to Rainbow Point, the highest overlook at 9,115 ft. Stop at Natural Bridge, Agua Canyon, and Ponderosa Canyon viewpoints. Each one is a quick walk from the parking lot with jaw-dropping views.</p>
+      <div class="time">Morning &ndash; Afternoon</div>
+      <h4>Option A: The Narrows (Top-Down or Bottom-Up)</h4>
+      <p>One of the most unique hikes in the world &mdash; you wade and walk through the Virgin River in a 1,000-foot-deep slot canyon. The <strong>bottom-up route</strong> starts at the Temple of Sinawava (shuttle stop #9) and goes as far as you want (most people do 2&ndash;5 miles in). Water is typically calf-to-knee-deep in April. Rent canyoneering shoes, neoprene socks, and a walking stick from outfitters in Springdale ($30&ndash;40/person). <a href="https://www.nps.gov/zion/planyourvisit/thenarrows.htm" target="_blank">NPS Info &rarr;</a></p>
     </div>
     <div class="timeline-item">
-      <div class="time">Late Afternoon (optional)</div>
-      <h4>Fairyland Loop or Mossy Cave</h4>
-      <p>If the group has energy, the 8-mile Fairyland Loop is less crowded and spectacular. For something shorter, the 0.8-mile Mossy Cave Trail features a small waterfall and cave — easy and fun.</p>
+      <div class="time">Morning &ndash; Afternoon</div>
+      <h4>Option B: Angels Landing</h4>
+      <p>The famous 5.4-mile round trip with 1,488 ft of elevation gain, ending with a thrilling chain-assisted scramble along a narrow ridge with 1,000-ft drops on both sides. <strong>Requires a permit</strong> ($6/person, lottery-based). Apply at <a href="https://www.recreation.gov/permits/4675309" target="_blank">recreation.gov</a> &mdash; day-before lottery opens at 12:01 AM the day before your hike. Allow 4&ndash;5 hours round trip.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="time">Late Afternoon</div>
+      <h4>Emerald Pools or Canyon Overlook Trail</h4>
+      <p>If you have energy left, the <strong>Lower Emerald Pools Trail</strong> (1.2 miles round trip, easy) is a quick waterfall walk from the shuttle. Or drive to the <strong>Canyon Overlook Trail</strong> near the east entrance tunnel (1 mile round trip) for sweeping canyon views at sunset.</p>
     </div>
     <div class="timeline-item">
       <div class="time">Evening</div>
-      <h4>Stargazing</h4>
-      <p>Bryce Canyon has some of the darkest skies in North America. On a clear night you can see 7,500+ stars with the naked eye. Head to any overlook after dark — Sunset Point and Bryce Point are great spots. Check if the park is hosting a ranger-led astronomy program.</p>
+      <h4>Dinner in Springdale</h4>
+      <p>Springdale has great dining for a small town. Try Oscar's Cafe for burgers, Whiptail Grill for Southwestern food, or Bit &amp; Spur for upscale Mexican with live music. It's your last park-town dinner &mdash; enjoy it.</p>
     </div>
   </div>
-  <div class="info-box tip">💡 This is your most relaxed day — no driving, no packing up. Enjoy having a full day to really soak in Bryce without rushing.</div>
+  <div class="info-box warning">&#9888; <strong>Angels Landing permits:</strong> You must win a permit lottery to hike past Scout Lookout. Apply for the day-before lottery at <a href="https://www.recreation.gov/permits/4675309" target="_blank">recreation.gov</a> ($6/person). Results post by 4 PM the day before. If you don't get permits, The Narrows is equally incredible and needs no permit. You can also hike to Scout Lookout without a permit for amazing views.</div>
+  <div class="info-box">&#127754; <strong>Narrows gear rental:</strong> Book canyoneering shoe + neoprene sock + walking stick packages from Zion Outfitter or Zion Adventure Company in Springdale. ~$30&ndash;40/person. Essential in April when the water is cold (45&ndash;55&deg;F). <a href="https://www.zionoutfitter.com/" target="_blank">Zion Outfitter &rarr;</a></div>
 </div>
 
 <!-- DAY 6 -->
@@ -324,33 +333,33 @@
     <div>
       <div class="day-title">Drive Back to Vegas</div>
       <div class="day-date">Saturday, April 11</div>
-      <div class="day-location">Bryce Canyon → Las Vegas</div>
+      <div class="day-location">Zion &rarr; Las Vegas</div>
     </div>
   </div>
-  <div class="drive-badge">🚗 ~4 hours · 270 miles via UT-12, UT-20 & I-15</div>
+  <div class="drive-badge">&#128663; ~2.5 hours &middot; 160 miles via I-15</div>
   <div class="timeline">
     <div class="timeline-item">
       <div class="time">Morning (optional)</div>
-      <h4>One last Bryce moment</h4>
-      <p>If you're up early, catch one more sunrise or do a quick walk along the rim. Otherwise, sleep in and enjoy a relaxed morning before hitting the road.</p>
+      <h4>One more Zion moment</h4>
+      <p>If you're up early, do the short <strong>Pa'rus Trail</strong> (3.5 miles, flat, paved) along the river &mdash; a peaceful morning walk with views of the Watchman and the Towers of the Virgin. Or sleep in and have a relaxed breakfast in Springdale.</p>
     </div>
     <div class="timeline-item">
       <div class="time">~10:00 AM</div>
-      <h4>Depart Bryce</h4>
-      <p>Drive west on UT-12 through Red Canyon (stop for photos at the red rock tunnels!), then south on UT-20 to I-15. The drive through southwestern Utah is gorgeous — red rocks give way to desert as you head toward Nevada.</p>
+      <h4>Depart Zion</h4>
+      <p>Head south on UT-9 to I-15, then straight down to Las Vegas. Quick, easy desert highway drive. Much shorter than the Bryce-to-Vegas route would have been.</p>
     </div>
     <div class="timeline-item">
-      <div class="time">~2:00 PM</div>
+      <div class="time">~12:30 PM</div>
       <h4>Arrive in Las Vegas</h4>
-      <p>Check into your airport hotel. Return the rental car at the LAS rental center (connected to the airport by tram). You'll want to return the car today to avoid an extra day charge on Sunday morning.</p>
+      <p>Check into your airport hotel. Return the rental car at the LAS rental center (connected to the airport by tram). Return the car today to avoid an extra day charge on Sunday morning.</p>
     </div>
     <div class="timeline-item">
-      <div class="time">Evening</div>
-      <h4>Last night — Vegas</h4>
-      <p>Grab a nice dinner on the Strip to celebrate the trip, see some lights, and get to bed at a reasonable hour for your early flight. The hotel shuttle will get you to the terminal in the morning.</p>
+      <div class="time">Afternoon &amp; Evening</div>
+      <h4>Last night &mdash; Vegas</h4>
+      <p>You have a full afternoon and evening in Vegas! Walk the Strip, grab a nice dinner to celebrate the trip, maybe catch a show. Get to bed at a reasonable hour for your early flight. The hotel shuttle will get you to the terminal in the morning.</p>
     </div>
   </div>
-  <div class="info-box tip">💡 <strong>Return car Saturday:</strong> Drop the rental car at the airport Saturday afternoon so you don't have to deal with it Sunday morning. Most airport hotels offer free shuttle service to the terminal.</div>
+  <div class="info-box tip">&#128161; <strong>Bonus: more Vegas time.</strong> Because Zion is only 2.5 hours from Vegas (vs. 4 hours from Bryce), you arrive earlier and get a proper last afternoon/evening in the city.</div>
 </div>
 
 <!-- DAY 7 -->
@@ -367,7 +376,7 @@
     <div class="timeline-item">
       <div class="time">Early Morning</div>
       <h4>Flights home</h4>
-      <p>Timothy flies to NYC (JFK/EWR). The Boston crew flies to BOS. Hotel shuttle to the terminal — no rental car to worry about since you returned it yesterday.</p>
+      <p>Timothy flies to NYC (JFK/EWR). The Boston crew flies to BOS. Hotel shuttle to the terminal &mdash; no rental car to worry about since you returned it yesterday.</p>
     </div>
   </div>
 </div>
@@ -379,82 +388,101 @@
 
   <div class="lodging-grid">
     <div class="lodging-card">
-      <h4>Nights 1–2: Grand Canyon Area (Tusayan, AZ)</h4>
-      <div class="loc">April 6 & 7 · 2 nights</div>
-      <p><strong>⭐ Grand Canyon Hotel & Suites</strong> — <span class="price">$89–142/night</span></p>
+      <h4>Nights 1&ndash;2: Grand Canyon Area (Tusayan, AZ)</h4>
+      <div class="loc">April 6 &amp; 7 &middot; 2 nights</div>
+      <p><strong>&#11088; Grand Canyon Hotel &amp; Suites</strong> &mdash; <span class="price">$89&ndash;142/night</span></p>
       <div class="details">Free breakfast, indoor pool/hot tub, 1 minute from park entrance. Suites available for groups.</div>
       <div class="details" style="margin-top:4px;">
-        <a href="https://www.grandcanyonhotelandsuites.com/" target="_blank">Official Site</a> ·
-        <a href="https://www.booking.com/hotel/us/holiday-inn-express-grand-canyon.html" target="_blank">Booking.com</a> ·
+        <a href="https://www.grandcanyonhotelandsuites.com/" target="_blank">Official Site</a> &middot;
+        <a href="https://www.booking.com/hotel/us/holiday-inn-express-grand-canyon.html" target="_blank">Booking.com</a> &middot;
         <a href="https://www.kayak.com/Grand-Canyon-Village-Hotels-Holiday-Inn-Express-Suites-Grand-Canyon.5756.ksp" target="_blank">KAYAK</a>
       </div>
-      <p style="margin-top:10px"><strong>Alt: Red Feather Lodge</strong> — <span class="price">$93–200/night</span></p>
+      <p style="margin-top:10px"><strong>Alt: Red Feather Lodge</strong> &mdash; <span class="price">$93&ndash;200/night</span></p>
       <div class="details">225-room motel, 1 mile from entrance, restaurant on-site, seasonal pool.</div>
       <div class="details" style="margin-top:4px;">
-        <a href="https://www.redfeatherlodge.com/" target="_blank">Official Site</a> ·
+        <a href="https://www.redfeatherlodge.com/" target="_blank">Official Site</a> &middot;
         <a href="https://www.kayak.com/Grand-Canyon-Village-Hotels-Red-Feather-Lodge.115949.ksp" target="_blank">KAYAK</a>
       </div>
-      <p style="margin-top:10px; font-size:0.88em; color:#888;">Est. 2 rooms × 2 nights = <strong>$356–568</strong></p>
+      <p style="margin-top:10px; font-size:0.88em; color:#888;">Est. 2 rooms &times; 2 nights = <strong>$356&ndash;568</strong></p>
     </div>
 
     <div class="lodging-card">
       <h4>Night 3: Page, AZ</h4>
-      <div class="loc">April 8 · 1 night</div>
-      <p><strong>⭐ Holiday Inn Express & Suites Page</strong> — <span class="price">$82–200/night</span></p>
+      <div class="loc">April 8 &middot; 1 night</div>
+      <p><strong>&#11088; Holiday Inn Express &amp; Suites Page</strong> &mdash; <span class="price">$82&ndash;200/night</span></p>
       <div class="details">Newly renovated, free breakfast buffet, seasonal pool/hot tub, 103 rooms.</div>
       <div class="details" style="margin-top:4px;">
-        <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/page/pgaxs/hoteldetail" target="_blank">Official IHG Site</a> ·
-        <a href="https://www.booking.com/hotel/us/holiday-inn-express-hotels-page.html" target="_blank">Booking.com</a> ·
+        <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/page/pgaxs/hoteldetail" target="_blank">Official IHG Site</a> &middot;
+        <a href="https://www.booking.com/hotel/us/holiday-inn-express-hotels-page.html" target="_blank">Booking.com</a> &middot;
         <a href="https://www.kayak.com/Page-Hotels-Holiday-Inn-Express-Suites-Page---Lake-Powell-Area.2164432.ksp" target="_blank">KAYAK</a>
       </div>
-      <p style="margin-top:10px"><strong>Budget alt: Red Rock Motel</strong> — <span class="price">$43–56/night</span></p>
+      <p style="margin-top:10px"><strong>Budget alt: Red Rock Motel</strong> &mdash; <span class="price">$43&ndash;56/night</span></p>
       <div class="details">15-room motel, 2-bedroom units with kitchens available. Call (928) 645-0062.</div>
       <div class="details" style="margin-top:4px;">
-        <a href="https://redrockmotel.com/" target="_blank">Official Site</a> ·
+        <a href="https://redrockmotel.com/" target="_blank">Official Site</a> &middot;
         <a href="https://www.booking.com/hotel/us/red-rock-motel.html" target="_blank">Booking.com</a>
       </div>
-      <p style="margin-top:10px; font-size:0.88em; color:#888;">Est. 2 rooms × 1 night = <strong>$86–400</strong></p>
+      <p style="margin-top:10px; font-size:0.88em; color:#888;">Est. 2 rooms &times; 1 night = <strong>$86&ndash;400</strong></p>
     </div>
 
     <div class="lodging-card">
-      <h4>Nights 4–5: Bryce Canyon Area</h4>
-      <div class="loc">April 9 & 10 · 2 nights</div>
-      <p><strong>⭐ Quality Inn Bryce Canyon (Panguitch)</strong> — <span class="price">$58–73/night</span></p>
+      <h4>Night 4: Bryce Canyon Area</h4>
+      <div class="loc">April 9 &middot; 1 night</div>
+      <p><strong>&#11088; Quality Inn Bryce Canyon (Panguitch)</strong> &mdash; <span class="price">$58&ndash;73/night</span></p>
       <div class="details">Free breakfast, restaurant, 20 min to Bryce Canyon. 80 rooms, reliable chain.</div>
       <div class="details" style="margin-top:4px;">
-        <a href="https://www.choicehotels.com/utah/panguitch/quality-inn-hotels/ut173" target="_blank">Official Choice Hotels</a> ·
-        <a href="https://www.booking.com/hotel/us/bryce-canyon-western-resort.html" target="_blank">Booking.com</a> ·
+        <a href="https://www.choicehotels.com/utah/panguitch/quality-inn-hotels/ut173" target="_blank">Official Choice Hotels</a> &middot;
+        <a href="https://www.booking.com/hotel/us/bryce-canyon-western-resort.html" target="_blank">Booking.com</a> &middot;
         <a href="https://www.kayak.com/Panguitch-Hotels-Quality-Inn-Bryce-Canyon.692484.ksp" target="_blank">KAYAK</a>
       </div>
-      <p style="margin-top:10px"><strong>Alt: Bryce Canyon Inn (Tropic)</strong> — <span class="price">$138+/night</span></p>
+      <p style="margin-top:10px"><strong>Alt: Bryce Canyon Inn (Tropic)</strong> &mdash; <span class="price">$138+/night</span></p>
       <div class="details">Cabins with full kitchens on Scenic Hwy 12, 7 miles from park entrance.</div>
       <div class="details" style="margin-top:4px;">
-        <a href="https://www.brycecanyoninn.com/" target="_blank">Official Site</a> ·
+        <a href="https://www.brycecanyoninn.com/" target="_blank">Official Site</a> &middot;
         <a href="https://www.booking.com/hotel/us/bryce-canyon-inn-tropic1.html" target="_blank">Booking.com</a>
       </div>
-      <p style="margin-top:10px; font-size:0.88em; color:#888;">Est. 2 rooms × 2 nights = <strong>$232–552</strong></p>
+      <p style="margin-top:10px; font-size:0.88em; color:#888;">Est. 2 rooms &times; 1 night = <strong>$116&ndash;276</strong></p>
+    </div>
+
+    <div class="lodging-card">
+      <h4>Night 5: Springdale / Zion Area</h4>
+      <div class="loc">April 10 &middot; 1 night</div>
+      <p><strong>&#11088; La Quinta Inn &amp; Suites Springdale</strong> &mdash; <span class="price">$100&ndash;180/night</span></p>
+      <div class="details">Right in Springdale, walking distance to park entrance and shuttle stop. Pool, hot tub, mountain views.</div>
+      <div class="details" style="margin-top:4px;">
+        <a href="https://www.wyndhamhotels.com/laquinta/springdale-utah/la-quinta-inn-and-suites-at-zion-park-springdale/overview" target="_blank">Official Site</a> &middot;
+        <a href="https://www.booking.com/hotel/us/la-quinta-at-zion-park.html" target="_blank">Booking.com</a> &middot;
+        <a href="https://www.kayak.com/Springdale-Hotels-La-Quinta-by-Wyndham-at-Zion-Park-Springdale.277530.ksp" target="_blank">KAYAK</a>
+      </div>
+      <p style="margin-top:10px"><strong>Alt: Zion Park Motel</strong> &mdash; <span class="price">$80&ndash;140/night</span></p>
+      <div class="details">Budget-friendly motel in Springdale, short walk to shuttle. Simple but clean.</div>
+      <div class="details" style="margin-top:4px;">
+        <a href="https://www.zionparkmotel.com/" target="_blank">Official Site</a> &middot;
+        <a href="https://www.booking.com/hotel/us/zion-park-motel.html" target="_blank">Booking.com</a>
+      </div>
+      <p style="margin-top:10px; font-size:0.88em; color:#888;">Est. 2 rooms &times; 1 night = <strong>$160&ndash;360</strong></p>
     </div>
 
     <div class="lodging-card">
       <h4>Night 6: Las Vegas (Airport Hotel)</h4>
-      <div class="loc">April 11 · 1 night · For early Sunday flight</div>
-      <p><strong>⭐ Hampton Inn Las Vegas Airport</strong> — <span class="price">$80–140/night</span></p>
+      <div class="loc">April 11 &middot; 1 night &middot; For early Sunday flight</div>
+      <p><strong>&#11088; Hampton Inn Las Vegas Airport</strong> &mdash; <span class="price">$80&ndash;140/night</span></p>
       <div class="details">Free breakfast, free airport shuttle, pool. Close to terminal for early flights.</div>
       <div class="details" style="margin-top:4px;">
-        <a href="https://www.hilton.com/en/hotels/lasvshx-hampton-las-vegas-airport/" target="_blank">Official Hilton</a> ·
+        <a href="https://www.hilton.com/en/hotels/lasvshx-hampton-las-vegas-airport/" target="_blank">Official Hilton</a> &middot;
         <a href="https://www.booking.com/hotel/us/hampton-inn-las-vegas-airport.html" target="_blank">Booking.com</a>
       </div>
-      <p style="margin-top:10px"><strong>Alt: Residence Inn by Marriott Las Vegas Airport</strong> — <span class="price">$90–160/night</span></p>
+      <p style="margin-top:10px"><strong>Alt: Residence Inn by Marriott Las Vegas Airport</strong> &mdash; <span class="price">$90&ndash;160/night</span></p>
       <div class="details">Suite-style rooms, free breakfast, free airport shuttle, pool.</div>
       <div class="details" style="margin-top:4px;">
-        <a href="https://www.marriott.com/hotels/travel/lasra-residence-inn-las-vegas-south/" target="_blank">Official Marriott</a> ·
+        <a href="https://www.marriott.com/hotels/travel/lasra-residence-inn-las-vegas-south/" target="_blank">Official Marriott</a> &middot;
         <a href="https://www.booking.com/hotel/us/residence-inn-las-vegas-south.html" target="_blank">Booking.com</a>
       </div>
-      <p style="margin-top:10px; font-size:0.88em; color:#888;">Est. 2 rooms × 1 night = <strong>$160–320</strong></p>
+      <p style="margin-top:10px; font-size:0.88em; color:#888;">Est. 2 rooms &times; 1 night = <strong>$160&ndash;320</strong></p>
     </div>
   </div>
 
-  <div class="info-box" style="margin-top:16px;">💰 <strong>Total lodging estimate (2 rooms, 6 nights):</strong> $834–1,840 total → <strong>$209–460/person</strong> · <a href="https://www.kayak.com/" target="_blank">Compare on KAYAK</a> · <a href="https://www.booking.com/" target="_blank">Booking.com</a></div>
+  <div class="info-box" style="margin-top:16px;">&#128176; <strong>Total lodging estimate (2 rooms, 6 nights):</strong> $878&ndash;1,924 total &rarr; <strong>$220&ndash;481/person</strong> &middot; <a href="https://www.kayak.com/" target="_blank">Compare on KAYAK</a> &middot; <a href="https://www.booking.com/" target="_blank">Booking.com</a></div>
 </div>
 
 <!-- BUDGET -->
@@ -462,51 +490,53 @@
   <h2>Budget Breakdown (Per Person)</h2>
   <table class="budget-table">
     <tr><th>Category</th><th>Est. Cost / Person</th></tr>
-    <tr><td>Round-trip flights (NYC or BOS ↔ LAS)</td><td>$180–300</td></tr>
-    <tr><td>Rental car — mid-size SUV, 6 days (split 4 ways)</td><td>$60–100</td></tr>
-    <tr><td>Gas — ~770 miles (split 4 ways)</td><td>$35–50</td></tr>
-    <tr><td>Lodging — 6 nights, 2 rooms (split 4 ways)</td><td>$209–460</td></tr>
+    <tr><td>Round-trip flights (NYC or BOS &harr; LAS)</td><td>$180&ndash;300</td></tr>
+    <tr><td>Rental car &mdash; mid-size SUV, 6 days (split 4 ways)</td><td>$60&ndash;100</td></tr>
+    <tr><td>Gas &mdash; ~830 miles (split 4 ways)</td><td>$38&ndash;55</td></tr>
+    <tr><td>Lodging &mdash; 6 nights, 2 rooms (split 4 ways)</td><td>$220&ndash;481</td></tr>
     <tr><td>America the Beautiful Pass (split 4 ways)</td><td>$20</td></tr>
     <tr><td>Antelope Canyon guided tour (Ken's Tours)</td><td>$55</td></tr>
+    <tr><td>Narrows gear rental (shoes, socks, stick)</td><td>$30&ndash;40</td></tr>
+    <tr><td>Angels Landing permit (if applying)</td><td>$6</td></tr>
     <tr><td>Horseshoe Bend parking (split 4 ways)</td><td>$3</td></tr>
-    <tr><td>Food & dining — 7 days (~$40–55/day)</td><td>$280–385</td></tr>
-    <tr><td><strong>ESTIMATED TOTAL PER PERSON</strong></td><td><strong>$842–1,373</strong></td></tr>
+    <tr><td>Food &amp; dining &mdash; 7 days (~$40&ndash;55/day)</td><td>$280&ndash;385</td></tr>
+    <tr><td><strong>ESTIMATED TOTAL PER PERSON</strong></td><td><strong>$892&ndash;1,445</strong></td></tr>
   </table>
-  <p style="font-size:0.88em; color:#888; margin-top:8px;">Well within the $1,200–1,800 mid-range budget, with room for extras like boat tours at Lake Powell or a nice Vegas dinner on Saturday night.</p>
+  <p style="font-size:0.88em; color:#888; margin-top:8px;">Well within a $1,200&ndash;1,800 mid-range budget, with room for extras like boat tours at Lake Powell or a nice Vegas dinner on Saturday night.</p>
 </div>
 
 <!-- FLIGHTS -->
 <div class="section">
   <h2>Flight Details</h2>
   <div class="lodging-card" style="margin-bottom:16px;">
-    <h4>Outbound — Monday, April 6</h4>
-    <p style="margin:8px 0; font-size:0.92em;"><strong>Timothy (NYC → LAS):</strong> JFK/EWR to Las Vegas, target arrival by 10–11 AM</p>
-    <p style="font-size:0.92em;"><strong>Boston crew (BOS → LAS):</strong> Boston to Las Vegas, target arrival by 10–11 AM</p>
+    <h4>Outbound &mdash; Monday, April 6</h4>
+    <p style="margin:8px 0; font-size:0.92em;"><strong>Timothy (NYC &rarr; LAS):</strong> JFK/EWR to Las Vegas, target arrival by 10&ndash;11 AM</p>
+    <p style="font-size:0.92em;"><strong>Boston crew (BOS &rarr; LAS):</strong> Boston to Las Vegas, target arrival by 10&ndash;11 AM</p>
   </div>
   <div class="lodging-card">
-    <h4>Return — Sunday, April 12 (EARLY)</h4>
-    <p style="margin:8px 0; font-size:0.92em;"><strong>Timothy (LAS → NYC):</strong> Las Vegas to JFK/EWR, early morning departure</p>
-    <p style="font-size:0.92em;"><strong>Boston crew (LAS → BOS):</strong> Las Vegas to Boston, early morning departure</p>
+    <h4>Return &mdash; Sunday, April 12 (EARLY)</h4>
+    <p style="margin:8px 0; font-size:0.92em;"><strong>Timothy (LAS &rarr; NYC):</strong> Las Vegas to JFK/EWR, early morning departure</p>
+    <p style="font-size:0.92em;"><strong>Boston crew (LAS &rarr; BOS):</strong> Las Vegas to Boston, early morning departure</p>
   </div>
-  <div class="info-box tip" style="margin-top:16px;">💡 <a href="https://www.google.com/travel/flights" target="_blank">Google Flights →</a> · <a href="https://www.southwest.com" target="_blank">Southwest (bags fly free) →</a></div>
+  <div class="info-box tip" style="margin-top:16px;">&#128161; <a href="https://www.google.com/travel/flights" target="_blank">Google Flights &rarr;</a> &middot; <a href="https://www.southwest.com" target="_blank">Southwest (bags fly free) &rarr;</a></div>
 </div>
 
 <!-- RENTAL CAR -->
 <div class="section">
   <h2>Rental Car</h2>
   <div class="lodging-card">
-    <h4>Mid-size SUV — 6 days from Las Vegas (LAS)</h4>
-    <p style="margin:8px 0;">Pick up: Mon Apr 6, ~11 AM · Return: <strong>Sat Apr 11, ~2 PM</strong> (return before Sunday to save a day)</p>
-    <p style="margin:8px 0;"><span class="price">$156–510 total</span> (SUV rates vary by provider — book early)</p>
+    <h4>Mid-size SUV &mdash; 6 days from Las Vegas (LAS)</h4>
+    <p style="margin:8px 0;">Pick up: Mon Apr 6, ~11 AM &middot; Return: <strong>Sat Apr 11, ~1 PM</strong> (return before Sunday to save a day)</p>
+    <p style="margin:8px 0;"><span class="price">$156&ndash;510 total</span> (SUV rates vary by provider &mdash; book early)</p>
     <div class="details">
-      <p><strong>Compare & Book:</strong></p>
+      <p><strong>Compare &amp; Book:</strong></p>
       <p style="margin-top:4px;">
-        <a href="https://www.kayak.com/Las-Vegas-Harry-Reid-Intl-Airport-SUV-Rentals.LAS.acsv.ksp" target="_blank">KAYAK — Compare All →</a> ·
-        <a href="https://www.budget.com/en/locations/us/nv/las-vegas/las" target="_blank">Budget →</a> ·
-        <a href="https://www.enterprise.com/en/car-rental-locations/us/nv/harry-reid-international-airport-54e1.html" target="_blank">Enterprise →</a> ·
-        <a href="https://www.hertz.com/us/en/location/unitedstates/nevada/lasvegas/last11" target="_blank">Hertz →</a>
+        <a href="https://www.kayak.com/Las-Vegas-Harry-Reid-Intl-Airport-SUV-Rentals.LAS.acsv.ksp" target="_blank">KAYAK &mdash; Compare All &rarr;</a> &middot;
+        <a href="https://www.budget.com/en/locations/us/nv/las-vegas/las" target="_blank">Budget &rarr;</a> &middot;
+        <a href="https://www.enterprise.com/en/car-rental-locations/us/nv/harry-reid-international-airport-54e1.html" target="_blank">Enterprise &rarr;</a> &middot;
+        <a href="https://www.hertz.com/us/en/location/unitedstates/nevada/lasvegas/last11" target="_blank">Hertz &rarr;</a>
       </p>
-      <p style="margin-top:8px;">No 4WD needed — all park roads are paved. Check if your credit card covers rental car CDW before buying insurance.</p>
+      <p style="margin-top:8px;">No 4WD needed &mdash; all park roads are paved. Check if your credit card covers rental car CDW before buying insurance.</p>
     </div>
   </div>
 </div>
@@ -515,11 +545,13 @@
 <div class="section">
   <h2>Pre-Trip Action Items</h2>
   <ul class="checklist">
-    <li class="urgent"><strong>Book Antelope Canyon tour for Thu Apr 9 morning</strong> — sells out weeks in advance. Ken's Tours is closed Wed, so Thursday is your day. $55/person. <a href="https://lowerantelope.com/" target="_blank">Ken's Tours →</a> · <a href="https://adventurousantelopecanyon.com/" target="_blank">Adventurous (Upper) →</a></li>
-    <li><strong>Book flights</strong> — target LAS arrival by 10–11 AM Mon Apr 6, early departure Sun Apr 12. <a href="https://www.google.com/travel/flights" target="_blank">Google Flights →</a></li>
-    <li><strong>Reserve rental car</strong> — mid-size SUV, pick up Mon / return Sat at LAS. <a href="https://www.kayak.com/Las-Vegas-Harry-Reid-Intl-Airport-SUV-Rentals.LAS.acsv.ksp" target="_blank">Compare on KAYAK →</a></li>
-    <li><strong>Book hotels</strong> for all 6 nights — see lodging section above with booking links</li>
-    <li><strong>Download offline maps</strong> — cell service is spotty at Grand Canyon and Bryce. Download Google Maps offline for Arizona & Utah.</li>
+    <li class="urgent"><strong>Book Antelope Canyon tour for Thu Apr 9 morning</strong> &mdash; sells out weeks in advance. Ken's Tours is closed Wed, so Thursday is your day. $55/person. <a href="https://lowerantelope.com/" target="_blank">Ken's Tours &rarr;</a> &middot; <a href="https://adventurousantelopecanyon.com/" target="_blank">Adventurous (Upper) &rarr;</a></li>
+    <li class="urgent"><strong>Apply for Angels Landing permit</strong> &mdash; lottery-based, $6/person. Apply the day before (Thu night for Fri hike) at <a href="https://www.recreation.gov/permits/4675309" target="_blank">recreation.gov &rarr;</a>. If you don't win, The Narrows needs no permit.</li>
+    <li><strong>Book flights</strong> &mdash; target LAS arrival by 10&ndash;11 AM Mon Apr 6, early departure Sun Apr 12. <a href="https://www.google.com/travel/flights" target="_blank">Google Flights &rarr;</a></li>
+    <li><strong>Reserve rental car</strong> &mdash; mid-size SUV, pick up Mon / return Sat at LAS. <a href="https://www.kayak.com/Las-Vegas-Harry-Reid-Intl-Airport-SUV-Rentals.LAS.acsv.ksp" target="_blank">Compare on KAYAK &rarr;</a></li>
+    <li><strong>Book hotels</strong> for all 6 nights &mdash; see lodging section above with booking links. Note: Springdale hotels book up fast in April.</li>
+    <li><strong>Reserve Narrows gear</strong> &mdash; book canyoneering shoe + neoprene sock + stick package from <a href="https://www.zionoutfitter.com/" target="_blank">Zion Outfitter &rarr;</a> (~$30&ndash;40/person)</li>
+    <li><strong>Download offline maps</strong> &mdash; cell service is spotty at Grand Canyon, Bryce, and parts of Zion. Download Google Maps offline for Arizona &amp; Utah.</li>
   </ul>
 </div>
 
@@ -531,11 +563,11 @@
       <h4>Hiking Gear</h4>
       <ul>
         <li>Sturdy hiking boots (broken in!)</li>
-        <li>Daypack (20–30L)</li>
+        <li>Daypack (20&ndash;30L)</li>
         <li>Trekking poles (helpful for steep trails)</li>
         <li>3L water reservoir or bottles per person</li>
         <li>Headlamp (for early starts)</li>
-        <li>Trail snacks — bars, nuts, dried fruit</li>
+        <li>Trail snacks &mdash; bars, nuts, dried fruit</li>
       </ul>
     </div>
     <div class="packing-cat">
@@ -544,13 +576,13 @@
         <li>Moisture-wicking base layers</li>
         <li>Fleece or insulating mid-layer</li>
         <li>Windbreaker / rain shell</li>
-        <li>Warm hat & gloves (for Bryce mornings)</li>
-        <li>Sunhat & sunglasses</li>
+        <li>Warm hat &amp; gloves (for Bryce mornings)</li>
+        <li>Sunhat &amp; sunglasses</li>
         <li>Quick-dry pants / hiking shorts</li>
       </ul>
     </div>
     <div class="packing-cat">
-      <h4>Sun & Safety</h4>
+      <h4>Sun &amp; Safety</h4>
       <ul>
         <li>SPF 50+ sunscreen</li>
         <li>Lip balm with SPF</li>
@@ -560,13 +592,14 @@
       </ul>
     </div>
     <div class="packing-cat">
-      <h4>Tech & Misc</h4>
+      <h4>Tech &amp; Misc</h4>
       <ul>
         <li>Portable charger / power bank</li>
         <li>Camera or phone with good camera</li>
         <li>Car phone mount for navigation</li>
         <li>Downloaded offline maps</li>
         <li>Reusable water bottle</li>
+        <li>Dry bag for The Narrows (phone/wallet)</li>
       </ul>
     </div>
   </div>
@@ -575,7 +608,7 @@
 </div>
 
 <div class="footer">
-  <p>Southwest National Parks Road Trip · April 6–12, 2026 · Grand Canyon · Page · Bryce Canyon</p>
+  <p>Southwest National Parks Road Trip &middot; April 6&ndash;12, 2026 &middot; Grand Canyon &middot; Page &middot; Bryce Canyon &middot; Zion</p>
 </div>
 
 </body>
